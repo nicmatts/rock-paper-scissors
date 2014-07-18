@@ -54,6 +54,10 @@ img {
 	text-align: center;
 }
 
+.hidden {
+	height: 250px;
+}
+
 .hidden img {
 	display: none;
 }
