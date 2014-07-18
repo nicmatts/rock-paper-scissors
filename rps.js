@@ -21,32 +21,32 @@ $(document).ready(function(){
 		} else if (choice1 ===  "rock" && choice2 === "paper") {
 			$("<h2 class='lose'>Paper covers rock.  You lose!</h2>").appendTo('div.text');
 			$("div#pictures").hide();
-			$("#paper").slideDown(1000);
+			$("#paper2").slideDown(1000);
 			$(".hidden-button").show();
 		} else if (choice1 === "rock" && choice2 === "scissors") {
 			$("<h2 class='win'>Rock smashes scissors.  You win!</h2>").appendTo('div.text');
 			$("div#pictures").hide();
-			$("#rock").slideDown(1000);
+			$("#rock2").slideDown(1000);
 			$(".hidden-button").show();
 		} else if (choice1 === "paper" && choice2 === "rock") {
 			$("<h2 class='win'>Paper covers rock.  You win!</h2>").appendTo('div.text');
 			$("div#pictures").hide();
-			$("#paper").slideDown(1000);
+			$("#paper2").slideDown(1000);
 			$(".hidden-button").show();
 		} else if (choice1 === "paper" && choice2 === "scissors") {
 			$("<h2 class='lose'>Scissors cut paper.  You lose!</h2>").appendTo('div.text');
 			$("div#pictures").hide();
-			$("#scissors").slideDown(1000);
+			$("#scissors2").slideDown(1000);
 			$(".hidden-button").show();
 		} else if (choice1 === "scissors" && choice2 === "paper") {
 			$("<h2 class='win'>Scissors cut paper.  You win!</h2>").appendTo('div.text');
 			$("div#pictures").hide();
-			$("#scissors").slideDown(1000);
+			$("#scissors2").slideDown(1000);
 			$(".hidden-button").show();
 		} else if (choice1 === "scissors" && choice2 === "rock"){
 			$("<h2 class='lose'>Rock smashes scissors.  You lose!</h2>").appendTo('div.text');
 			$("div#pictures").hide();
-			$("#rock").slideDown(1000);
+			$("#rock2").slideDown(1000);
 			$(".hidden-button").show();
 			}
 		}
